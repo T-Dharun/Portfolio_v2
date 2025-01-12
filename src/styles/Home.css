@@ -1,0 +1,68 @@
+.home{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color:var(--background);
+    color: var(--text);
+}
+
+.home-container{
+    width: min(100%,40em);
+}
+.home-profile{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 0.25em;
+    background-color: rgba(235, 241, 247, 0.479);
+    box-shadow: 1px 2px 5px 1px var(--golden);
+    margin-block: 1em;
+}
+.home-buttons{
+    gap: 0.5em;
+}
+.home-buttons button{
+    padding: 0.7em 3em;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5em;
+    outline: none;
+    font-weight: bold;
+}
+.home-buttons>button:hover{
+    background-color: rgba(76, 133, 255, 0.8);
+    color: white;
+}
+.home-button-1-active{
+    background-color: var(--golden);
+    font-weight: bold;
+    color: white;
+}
+.home-buttons>.home-button-2{
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 20, 0.1);
+    color: var(--text);
+}
+.dharun-name{
+    color: orangered;
+    font-size: 1.2em;
+    padding-inline: 0.25em;
+    background: linear-gradient(90deg, #ff6f61, #5739fe); /* Define your gradient colors */
+   -webkit-background-clip: text; /* Clip the background to the text */
+   -webkit-text-fill-color: transparent; 
+}
+@media screen and (max-width: 768px){
+    .home-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+  @supports (height: 100dvh) {
+    .home {
+      height: 100dvh; /* Dynamic Viewport Height */
+    }
+  }
+  

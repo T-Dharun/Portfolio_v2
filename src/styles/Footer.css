@@ -1,0 +1,32 @@
+.footer-main{
+    background-color: rgba(0, 0, 0, 0.95);
+    margin-top: 0.5px;
+}
+.footer-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-head{
+    color: var(--golden);
+}
+.footer-info{
+    max-width: 500px;
+}
+.footer-media{
+    width: 300px;
+}
+.footer-item{
+    height: 2em;
+    width: 2em;
+    cursor: pointer;
+}
+.footer-item:hover{
+    position: relative;
+    top: -0.25em;
+}
+@media screen and (max-width:786px) {
+    .footer-container{
+        flex-direction: column;
+    }
+}

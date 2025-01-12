@@ -1,0 +1,25 @@
+.skill{
+    background-color: var(--background);
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    width: min(100%,50em);
+    flex-wrap: wrap;
+}
+.skill-image-item{
+    width: 3em;
+    height: 3em;
+}
+.skill-header{
+    color: var(--golden);
+}
+.skill-para{
+    color: var(--text);
+}
+.skill-tooltip.show{
+    background-color: #e20f00 !important; /* Custom background color */
+    color: #ffffff !important;           /* Custom text color */
+    font-weight: bold;
+    border: 1px solid #e67e22;    
+}
