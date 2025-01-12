@@ -1,5 +1,6 @@
 .project{
     background-color: var(--background);
+    padding-block: 5em;
 }
 .project-card{
     display: flex;
@@ -40,7 +41,7 @@
 .project-info{
     color: var(--text);
     padding: 0em;
-    font-size: 0.8em;
+    font-size: 0.9em;
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -52,34 +53,33 @@
     color: var(--golden);
 } 
 
-.project-link-button div{
+.project-link-button a{
     padding: 0.5em 2em;
     cursor: pointer;
-    border: 1px solid rgba(255, 185, 185, 0.284);
+    text-decoration: none;
+    color:var(--text);
+    border: 1px solid rgba(255, 0, 0, 0.284);
 }
-.project-link-button div:nth-child(odd){
+.project-link-button a:nth-child(odd){
     background-color: orangered;
     border: 0px;
 }
-.project-link-button div:hover{
-    color: var(--text);
-    background-color: rgba(112, 31, 7, 0.5);
+.project-link-button a:hover{
+    color: white;
+    background-color: rgba(154, 38, 3, 0.8);
     backdrop-filter: blur(10px);
-}
-.project-tech-title{
-    background-color: transparent !important;
 }
 .project-tech div{
     height: 10px;
     display: flex;
     align-items: center;
-    padding-inline: 1em;
-    margin-block: 0.25em;
+    padding: 1em;
+    margin-block: 0.5em;
     margin-inline: 0.2em;
     border: 1px solid rgba(255, 68, 0, 0.236);
 }
 .project-view-button{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 68, 0, 0.75);
     padding: 0.5em 3em;
     border-radius: 10em;
     color: white;
@@ -87,7 +87,7 @@
     border: 1px solid rgb(150, 97, 0);
 }
 .project-view-button:hover{
-    background-color: rgba(255, 68, 0, 0.5);
+    background-color: rgba(171, 46, 0, 0.75);
 }
 @media screen and (max-width:998px){
     .project-card{
@@ -102,8 +102,11 @@
         padding-block: 2.5em;
 
     }
-    .project-link-button div{
+    .project-link-button a{
         flex: 1;
         text-align: center;
+    }
+    .project{
+        padding: 0px;
     }
 }

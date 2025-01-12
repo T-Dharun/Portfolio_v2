@@ -24,9 +24,9 @@ const Navbar = () => {
                             </div>
                         }
                         return (
-                            <div key={item.id} className="navbar-list-item">
+                            <a key={item.id} className="navbar-list-item" href={item.url}>
                                 <img src={dark?item.lightImage:item.darkImage}/>
-                            </div>
+                            </a>
                             )
                         }
                     )}

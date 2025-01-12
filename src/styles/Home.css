@@ -23,15 +23,16 @@
 .home-buttons{
     gap: 0.5em;
 }
-.home-buttons button{
+.home-buttons a{
     padding: 0.7em 3em;
+    text-decoration: none;
     cursor: pointer;
     border: 0px;
     border-radius: 5em;
     outline: none;
     font-weight: bold;
 }
-.home-buttons>button:hover{
+.home-buttons>a:hover{
     background-color: rgba(76, 133, 255, 0.8);
     color: white;
 }

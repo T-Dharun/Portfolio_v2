@@ -1,5 +1,6 @@
 .skill{
     background-color: var(--background);
+    padding-block: 5em;
 }
 .skill-container{
     display: flex;
@@ -22,4 +23,10 @@
     color: #ffffff !important;           /* Custom text color */
     font-weight: bold;
     border: 1px solid #e67e22;    
+}
+
+@media screen and (max-width:768px){
+    .skill{
+        padding: 2em;
+    }
 }

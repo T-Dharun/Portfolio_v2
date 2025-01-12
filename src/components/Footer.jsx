@@ -4,13 +4,13 @@ const Footer=()=>{
     return(
         <>
             <main className="footer-main">
-                <section className="footer-container p-5">   
+                <section className="footer-container">   
                     <section className="footer-info">
                         <h3 className="fw-bold footer-head">T-Dharun</h3>
                         <p>Passionate about using software and hardware to create innovative and user-friendly products and solutions</p>
                     </section>
                     <section className="footer-media">
-                        <h3 className="fw-bold footer-head">Social Media</h3>
+                        <h5 className="fw-bold footer-head">Social Media</h5>
                         <div className="d-flex">
                             {
                                 socialMedia.map(item=>{
@@ -24,8 +24,8 @@ const Footer=()=>{
                         </div>
                     </section>
                 </section>
-                <section className="p-2 text-center fw-bold text-light bg-dark ">
-                    Design & Developed by T-Dharun
+                <section className="text-center text-light footer-develop">
+                    Designed & Developed by T-Dharun
                 </section>
             </main>
         </>

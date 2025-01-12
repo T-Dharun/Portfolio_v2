@@ -1,11 +1,13 @@
 .footer-main{
     background-color: rgba(0, 0, 0, 0.95);
-    margin-top: 0.5px;
+    border-top: 1px solid rgb(81, 81, 81);
+    font-size: 0.9em;
 }
 .footer-container{
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 4em;
 }
 .footer-head{
     color: var(--golden);
@@ -25,8 +27,17 @@
     position: relative;
     top: -0.25em;
 }
+.footer-develop{
+    padding-block: 1em;
+    background-color: black;
+    border-top: 0.1px dashed rgb(83, 83, 83);
+}
 @media screen and (max-width:786px) {
     .footer-container{
         flex-direction: column;
+        padding: 2em;
+    }
+    .footer-develop{
+        padding-block:2em 6em;
     }
 }
