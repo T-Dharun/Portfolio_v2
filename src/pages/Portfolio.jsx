@@ -2,6 +2,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Home from "../components/Home";
 import Navbar from "../components/Navbar";
+import ProjectPage from "../components/Projects/ProjectPage";
 import Skills from "../components/Skill";
 
 const Portfolio = () => {
@@ -9,7 +10,8 @@ const Portfolio = () => {
     <main>
         <Navbar/>
         <Home/>
-        <Skills/>
+        <Skills/> 
+        <ProjectPage/>
         <Contact/>
         <Footer/>
     </main>

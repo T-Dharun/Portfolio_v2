@@ -1,4 +1,5 @@
-export const NavbarItems = [
+
+export const NavbarItems = [    
     {
         id: 1,
         title: "Home",
@@ -137,4 +138,47 @@ export const skillItems=[
         title:'Arduino',
         url:'https://img.icons8.com/?size=100&id=Of4lZV2lwBQI&format=png&color=000000'
     },
+]
+
+export const projectItem=[
+    {
+        id:1,
+        title:'Smart Energy Monitoring and optimization',
+        description:'.project-image:nth-child(n%3).project-image:nth-child(n%3).project-image:nth-child(n%3).project-image:nth-child(n%3).project-image:nth-child(n%3)',
+        url:"p1",
+        background:"linear-gradient(45deg, red, blueviolet)",
+        tech:['Java','MERN','Python']
+    },
+    {
+        id:2,
+        title:'Smart Energy Monitoring anfasdfd optimization',
+        description:'Built an electricity monitoring system that tracks appliance consumption, creates custom usage plans, and alerts users to turn off appliances when they exceed their targets.',
+        url:'',
+        background:"linear-gradient(45deg,aqua,orange)",
+        tech:['Java','MERN','Python']
+    },
+    {
+        id:3,
+        title:'Smart Energy Monitoring and optimization',
+        description:'Built an electricity monitoring system that tracks appliance consumption, creates custom usage plans, and alerts users to turn off appliances when they exceed their targets.Built an electricity monitoring system that tracks appliance consumption, creates custom usage plans, and alerts users to turn off appliances when they exceed their targets.',
+        url:'',
+        background: "linear-gradient(45deg,rgb(0, 74, 233),rgb(162, 255, 0))",
+        tech:['Java','MERN','Python']
+    },
+    {
+        id:4,
+        title:'Smart Energy Monitoring and optimization',
+        description:'Built an electricity monitoring system that tracks appliance consumption, creates custom usage plans, and alerts users to turn off appliances when they exceed their targets.Built an electricity monitoring system that tracks appliance consumption, creates custom usage plans, and alerts users to turn off appliances when they exceed their targets.',
+        url:'',
+        background:"linear-gradient(45deg, red, blueviolet)",
+        tech:['Java','MERN','Python']
+    },
+    {
+        id:5,
+        title:'Smart Energy Monitoring and optimization',
+        description:'Built an electricity monitoring system that tracks appliance consumption, creates custom usage plans, and alerts users to turn off appliances when they exceed their targets.Built an electricity monitoring system that tracks appliance consumption, creates custom usage plans, and alerts users to turn off appliances when they exceed their targets.',
+        url:'',
+        background:"linear-gradient(45deg,aqua,orange)",
+        tech:['Java','MERN','Python']
+    }
 ]
