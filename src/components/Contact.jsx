@@ -50,7 +50,7 @@ const Contact = () => {
                 <h1 className="fw-bold">Contact</h1>
                 <div>Get in Touch with me</div>
             </section>
-            <section className="form-main">
+            <section className="form-main" data-aos="fade">
                 <section className="form-section">
                     <div className="input-group">
                         <input

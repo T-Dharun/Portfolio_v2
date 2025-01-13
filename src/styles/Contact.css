@@ -1,6 +1,5 @@
 
 .form-main{
-    background-color: var(--background);
     display: flex;
     padding: 2em;
     justify-content: center;
@@ -16,22 +15,22 @@
     gap: 1em;
 }
 .input-group>input{
-    background-color: rgb(223, 223, 223);
+    background-color: whitesmoke;
     flex: 1;
     padding: 0.75em;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 textarea {
-    background-color: rgb(230, 230, 230);
+    background-color:whitesmoke;
     resize: none;
     margin-top: 1em;
     height: 10em;
     padding: 0.75em;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .message-button{
     background-color:var(--golden);

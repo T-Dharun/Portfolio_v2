@@ -1,19 +1,11 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.3s ease;
-}
-
-
 :root{
     --primary-color:#5142c2;
     --secondary-color: #998fe5;
     --accent-color: #6150e2;
     --golden:rgb(254, 92, 33);
     --text:#ffffff;
-    --nav:grey;
+    --nav:rgba(133, 133, 133, 0.5);
     --background:#000000;
 }
 [data-theme="dark"]{
@@ -21,3 +13,13 @@
     --text:#000000;
 }
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.main-container{
+    background-color: var(--background);
+}

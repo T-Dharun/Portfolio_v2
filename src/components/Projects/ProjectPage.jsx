@@ -16,7 +16,7 @@ const ProjectPage=()=>{
                     projectItem.map(item=>{
                         if(item.id>2) return;
                         return(
-                            <ProjectCard project={item}/>
+                            <ProjectCard project={item} key={item.id}/>
                         )
                     })
                 }
@@ -28,7 +28,7 @@ const ProjectPage=()=>{
                     {projectItem.map(item=>{
                         if(item.id<=2) return;
                         return(
-                            <ProjectCard project={item}/>
+                            <ProjectCard project={item} key={item.id}/>
                         )
                     })}
                 </section>

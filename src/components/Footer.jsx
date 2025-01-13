@@ -10,14 +10,14 @@ const Footer=()=>{
                         <p>Passionate about using software and hardware to create innovative and user-friendly products and solutions</p>
                     </section>
                     <section className="footer-media">
-                        <h5 className="fw-bold footer-head">Social Media</h5>
+                        <h5 className="fw-bold footer-head">Social Networks</h5>
                         <div className="d-flex">
                             {
-                                socialMedia.map(item=>{
+                                socialMedia.map((item,ind)=>{
                                     return(
-                                        <div className="p-2 ">
+                                        <a className="p-2" key={ind} href={item.link} target="_blank">
                                             <img src={item.url} className="footer-item"/>
-                                        </div>
+                                        </a>
                                     )
                                 })
                             }

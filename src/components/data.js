@@ -48,22 +48,27 @@ export const socialMedia=[
     {
         id:1,
         title:'',
-        url:'https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000'
+        url:'https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000',
+        link:'https://www.linkedin.com/in/dharun-t'
     },
     {
         id:2,
         title:'',
-        url:'https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=ffffff'
+        url:'https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=ffffff',
+        link:'https://github.com/T-Dharun'
+        
     },
     {
         id:3,
         title:'',
-        url:'https://img.icons8.com/?size=100&id=wDGo581Ea5Nf&format=png&color=000000'
+        url:'https://img.icons8.com/?size=100&id=wDGo581Ea5Nf&format=png&color=000000',
+        link:'https://www.leetcode.com/u/Dharun_dev'
     },
     {
         id:4,
         title:'',
-        url:'https://img.icons8.com/?size=100&id=AbQBhN9v62Ob&format=png&color=000000'
+        url:'https://img.icons8.com/?size=100&id=AbQBhN9v62Ob&format=png&color=000000',
+        link:'https://www.geeksforgeeks.org/user/dharune26y8/'
     }
     
 
@@ -188,4 +193,48 @@ export const projectItem=[
         background: "linear-gradient(45deg,rgb(0, 74, 233),rgb(162, 255, 0))",
         tech:['MERN','Python']
     }
+]
+
+
+export const timelineItems=[
+    {
+        id:1,
+        title:"Academic Excellence Award (2023-2024)",
+        description:'Recognized for achieving top 5% ranking at Kongu Engineering College',
+        reward:'20000',
+        date:'Mar 2024',
+        url:'https://img.icons8.com/?size=100&id=zMwxb5uHonjU&format=png&color=000000'
+    },
+    {
+        id:2,
+        title:"Second Prize in IDEATHON 2K24",
+        description:'Project Presentation at the Department of EEE, Kongu Engineering College.',
+        reward:'2000',
+        date:'Nov 2024',
+        url:'https://img.icons8.com/?size=100&id=2AxMUk3BMPIc&format=png&color=000000'
+    },
+    {
+        id:3,
+        title:"Runner-Up in 24-Hour Hackathon",
+        description:'Organized by the Google Developer Students Club at KSRIET.',
+        reward:'2000',
+        date:'Oct 2023',
+        url:'https://img.icons8.com/?size=100&id=NtXy7YdVNSw3&format=png&color=000000'
+    },
+    {
+        id:4,
+        title:"First Prize in InterCollege Coding Contest",
+        description:'Shristi 2K24  conducted by PSG College of Technology, Coimbatore',
+        reward:'1500',
+        date:'Nov 2024',
+        url:'https://img.icons8.com/?size=100&id=aXWPb8Jc52kh&format=png&color=000000'
+    },
+    {
+        id:5,
+        title:"2+ Prizes in IntraCollege Coding Contests",
+        description:'Conducted by Cloud Users Group and CSE Association, Kongu Engineering College.',
+        reward:'1000',
+        date:'2023-2024',
+        url:'https://img.icons8.com/?size=100&id=eejUGEX0qHvl&format=png&color=000000'
+    },
 ]

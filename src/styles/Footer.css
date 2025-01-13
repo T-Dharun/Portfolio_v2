@@ -1,5 +1,5 @@
 .footer-main{
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.75);
     border-top: 1px solid rgb(81, 81, 81);
     font-size: 0.9em;
 }
@@ -36,8 +36,5 @@
     .footer-container{
         flex-direction: column;
         padding: 2em;
-    }
-    .footer-develop{
-        padding-block:2em 6em;
     }
 }

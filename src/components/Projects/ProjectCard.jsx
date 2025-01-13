@@ -10,10 +10,9 @@ const imageitems={
 }
 const ProjectCard=({project})=>{
     const {id,title,description,tech,url,background,live,github}=project;
-    console.log(url)
     return(
         <>
-            <section className="project-card py-5">
+            <section className="project-card py-5" data-aos="fade">
                 <section className="project-item">
                 <div className="project-image" style={{ background:background }}>
                         <img src={imageitems[url]} alt="" className="project-image-inside bg-dark"/>
@@ -24,9 +23,9 @@ const ProjectCard=({project})=>{
                     <div className="project-info-desc">{description}</div>
                      <section className="project-tech  flex-wrap d-flex align-items-center my-4 mt-0">
                         {
-                            tech.map(item=>{
+                            tech.map((item,ind)=>{
                                 return(
-                                    <div>{item}</div>
+                                    <div key={ind}>{item}</div>
                                 )
                             })
                         }

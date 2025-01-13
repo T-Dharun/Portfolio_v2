@@ -1,0 +1,35 @@
+.achieve-main{
+    width: min(100%,50em);
+}
+.vertical-timeline{
+    padding: 0%;
+}
+.vertical-timeline-element-items{
+    margin-bottom: 0px;
+    margin-top: 0cap;
+}
+.vertical-timeline-element-content{
+    background-color: black;
+}
+.vertical-timeline-element-content-arrow{
+    border: 0cap;
+    
+}
+.timeline-content{
+    color:rgb(147, 147, 147);
+    border: 0cap;
+    margin: 0%;
+    font-size: 0.9em;
+    background-color: var(--background);
+    border-bottom:1px dashed rgba(122, 122, 122, 0.5)
+}
+.timeline-content h6{
+    color: var(--text);
+}
+.achievement-icon{
+    width: 100%;
+    padding: 5px;
+}
+.timeline-reward{
+    background-color: rgba(255, 68, 0, 0.784);
+}
