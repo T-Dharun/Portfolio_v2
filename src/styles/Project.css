@@ -41,7 +41,7 @@
 .project-info{
     color: var(--text);
     padding: 0em;
-    font-size: 0.9em;
+    font-size: 1em;
     display: flex;
     flex-direction: column; 
     justify-content: center;
