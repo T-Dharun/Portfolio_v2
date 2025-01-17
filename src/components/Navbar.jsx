@@ -4,7 +4,7 @@ import "../index.css";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
-    const [dark,setDark]=useState(false);
+    const [dark,setDark]=useState(true);
     useEffect(() => {
         if (dark) {
             document.body.setAttribute("data-theme", "dark");
