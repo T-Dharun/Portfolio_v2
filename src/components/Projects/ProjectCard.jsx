@@ -1,12 +1,15 @@
 
 import "../../styles/Project.css";
-import p1 from "../../assets/website/energy-meter.png";
+import p1 from "../../assets/website/plcweb.png";
+import p4 from "../../assets/website/energy-meter.png";
 import p2 from "../../assets/website/dblearn.png";
 import p3 from "../../assets/website/ayush.png";
+
 const imageitems={
     "p1":p1,
     "p2":p2,
     "p3":p3,
+    "p4":p4
 }
 const ProjectCard=({project})=>{
     const {id,title,description,tech,url,background,live,github}=project;
